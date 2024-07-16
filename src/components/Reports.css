@@ -1,0 +1,29 @@
+.reports-content {
+    padding: 20px;
+    min-height: 170vh;
+    max-width: 100%;
+  }
+  
+  .reports-card {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 101%;
+  }
+  
+  .reports-card .card-body {
+    padding: 20px;
+  }
+  
+  .reports-card .card-title {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .reports-content {
+      min-height: 130vh;
+    }
+    .reports-card {
+        width: 90%;
+    }
+  }

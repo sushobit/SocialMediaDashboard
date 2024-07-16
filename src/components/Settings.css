@@ -1,0 +1,27 @@
+.settings-content {
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .settings-card {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .settings-card .card-body {
+    padding: 20px;
+  }
+  
+  .settings-card .card-title {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  button.mt-2 {
+    margin-top: 10px;
+  }
+  

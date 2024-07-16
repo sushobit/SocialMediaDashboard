@@ -1,0 +1,28 @@
+.analytics-content {
+    padding: 20px;
+    min-height: 180vh;
+    max-width: 100%;
+  }
+  
+  .analytics-card {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 102%;
+  }
+  
+  .analytics-card .card-body {
+    padding: 20px;
+  }
+  
+  .analytics-card .card-title {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    .analytics-content {
+      min-height: 130vh;
+    }
+    .analytics-card {
+        width: 90%;
+    }
+  }

@@ -1,0 +1,39 @@
+.profile-content {
+    padding: 20px;
+    min-height: 110vh;
+
+  }
+  
+  .profile-card {
+    max-width: 100%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-stats-card, .recent-posts-card, .activity-feed-card {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-stats-card .card-body, .recent-posts-card .card-body, .activity-feed-card .card-body {
+    padding: 20px;
+  }
+  
+  .social-stats-card .card-title, .recent-posts-card .card-title, .activity-feed-card .card-title {
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .badge {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  
